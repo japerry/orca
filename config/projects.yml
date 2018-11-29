@@ -35,13 +35,13 @@ drupal/acquia_connector:
     # - acquia_search
 
 drupal/acquia_contenthub:
-  version: "~1.0"
+  version: "~2.0"
   dir: content-hub-d8
   module: acquia_contenthub
   submodules:
-    - acquia_contenthub_diagnostic
-    - acquia_contenthub_status
     - acquia_contenthub_subscriber
+    - acquia_contenthub_publisher
+    - acquia_contenthub_curation
 
 drupal/acquia_lift:
   version: "*"
